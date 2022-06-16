@@ -297,7 +297,7 @@ public class MongoDBManager {
     }
 
     /**
-     * Questo metodo rende godCLass un indice
+     * Questo metodo rende godCLass un indice e lancia una covered query
      * @param mongoCollection collezione ml_dataset
      */
     public static void makeGodClassIndex(MongoCollection<Document> mongoCollection) {
