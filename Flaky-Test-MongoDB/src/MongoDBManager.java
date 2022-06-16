@@ -61,7 +61,7 @@ public class MongoDBManager {
             else if (i == 9)
                 insertTest(ml_datasetCollection);
             else if (i == 10)
-                retrieveyNameProject(ml_datasetCollection);
+                retrieveByNameProject(ml_datasetCollection);
             else if (i == 11)
                 sortByLoc(ml_datasetCollection);
             else if (i == 12)
@@ -272,7 +272,7 @@ public class MongoDBManager {
      * Questo metodo recupera un documento sulla base del suo nameProject
      * @param mongoCollection collezione ml_dataset
      */
-    public static void retrieveyNameProject(MongoCollection<Document> mongoCollection) {
+    public static void retrieveByNameProject(MongoCollection<Document> mongoCollection) {
         Scanner in = new Scanner(System.in);
         System.out.println("Inserisci nameProject");
         String nameProject = in.next("[A-Za-z0-9]*");
