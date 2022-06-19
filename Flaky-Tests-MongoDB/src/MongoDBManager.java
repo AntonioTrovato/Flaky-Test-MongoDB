@@ -10,6 +10,9 @@ import java.util.Scanner;
 
 import static com.mongodb.client.model.Indexes.ascending;
 
+/**
+ * @author Antonio Trovato
+ */
 public class MongoDBManager {
 
     /**
